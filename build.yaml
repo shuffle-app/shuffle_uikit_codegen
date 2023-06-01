@@ -1,0 +1,8 @@
+builders:
+  infoGeneratorBuilder:
+    import: 'package:codegen/codegen.dart'
+    builder_factories: ['infoGeneratorBuilder']
+    auto_apply: dependents
+    build_extensions: {".dart": [".info.part"]}
+    build_to: source
+    applies_builders: ["source_gen|combining_builder"]
