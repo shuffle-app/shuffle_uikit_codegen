@@ -1,6 +1,6 @@
 builders:
   infoGeneratorBuilder:
-    import: 'package:codegen/codegen.dart'
+    import: 'package:shuffle_uikit_codegen/shuffle_uikit_codegen.dart'
     builder_factories: ['infoGeneratorBuilder']
     auto_apply: dependents
     build_extensions: {".dart": [".info.part"]}
